@@ -1,0 +1,193 @@
+ 1  exit
+    2  clear
+    3  ls
+    4  ifconfig
+    5  hostname
+    6  exit
+    7  clear
+    8  ls
+    9  clear
+   10  hostnamectl
+   11  nano /etc/hostname
+   12  clear
+   13  sudo nano /etc/hosts
+   14  clear
+   15  reboot
+   16  clear
+   17  ifconfig
+   18  ping google.com
+   19  shutdown -n
+   20  shutdown /?
+   21  man shutdown
+   22  shutdown -P
+   23  exit
+   24  clear
+   25  hostname
+   26  hostnamectl
+   27  nano /etc/hostname
+   28  clear
+   29  sudo nano /etc/hosts
+   30  clear
+   31  reboot
+   32  ls
+   33  clear
+   34  ifconfig
+   35  exit
+   36  clear
+   37  nano /etc/hostname
+   38  clear
+   39  sudo nano /etc/hosts
+   40  reboot
+   41  ifconfig
+   42  exit
+   43  clear
+   44  exit
+   45  clear
+   46  exit
+   47  clear
+   48  exit
+   49  cleasr
+   50  clear
+   51  ls
+   52  clear
+   53  exit
+   54  clear
+   55  exit
+   56  ssh root@gateway
+   57  exit
+   58  ssh root@gateway
+   59  cd .ssh
+   60  ls
+   61  cat authorized_keys
+   62  exit
+   63  clear
+   64  exit
+   65  clear
+   66  exit
+   67  clear
+   68  la
+   69  ls
+   70  clear
+   71  exit
+   72  yum update
+   73  yum install htop
+   74  ping -c 1.8.8.8.8
+   75  man htop
+   76  uname -a
+   77  man -a
+   78  man uname
+   79  yum -y install nano
+   80  man nano
+   81  nano secretmessage.txt
+   82  yum -y install toilet
+   83  yum search figlet
+   84  yum install figlet
+   85  yum search motd
+   86  echo "hi" | figlet
+   87  echo "Andrea Torres" | figlet
+   88  echo ":)" | figlet
+   89  echo ": )" | figlet
+   90  > .message
+   91  >.message
+   92  ls -a
+   93  cat .message
+   94  ls  -art
+   95  cat.message
+   96  cat .message
+   97  echo ": )" | figlet > .message
+   98  cat .message
+   99  nano.bashrc
+  100  nano .bashrc
+  101  ifconfig
+  102  clear
+  103  exit
+  104  figlet konqi
+  105  figlet Starfleet Communications Established
+  106  figlet StarfleetCommunications established > .hidden
+  107  nano ~/.bashrc
+  108  exit
+  109  nano ~/.bashrc
+  110  figlet Starfleet Communications Established > .hidden1
+  111  nano ~/.bashrc
+  112  exit
+  113  nano ~/.bashrc
+  114  exit
+  115  date
+  116  date +%r
+  117  date +%d
+  118  date +%D
+  119  file /usr/bin/clean-binary-files
+  120  wc /usr/bin/clean-binary-files
+  121  head /usr/bin/clean-binary-files
+  122  tail /usr/bin/clean-binary-files
+  123  tail /usr/bin/clean-binary-files -n20
+  124  history
+  125  date
+  126  history
+  127  clear ; history | tail -n 5
+  128  addsuer Sputnik -m
+  129  adduser Sputnik -m
+  130  su Sputnik
+  131  exit
+  132  cd Sputnik
+  133  ls
+  134  cd
+  135  su Sputnik
+  136  yum install tree
+  137  tree / |less
+  138  ls /
+  139  tree /root
+  140  tree /var
+  141  cat /dev/urandom
+  142  touch samplefile
+  143  ls -l
+  144  cat secretmessage.txt
+  145  echo "Sputnik" > samplefile
+  146  cat samplefile
+  147  touch song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3
+  148  touch snap1.jpg snap2.jpg snap3.jpg snap4.jpg snap5.jpg snap6.jpg
+  149  touch film1.avi film2.avi film3.avi film4.avi film5.avi film6.avi
+  150  ls
+  151  mkdir Music
+  152  mv song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3
+  153  mv song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3 Music/
+  154  ls
+  155  mkdir Pictures
+  156  mkdir Videos
+  157  mv film1.avi film2.avi film3.avi film4.avi film5.avi film6.avi Videos/
+  158  mv snap1.jpg snap2.jpg snap3.jpg snap4.jpg snap5.jpg snap6.jpg Pictures/
+  159  ls -;
+  160  ls -l
+  161  mkdir friends family work
+  162  ls
+  163  find
+  164  ls
+  165  ls -l
+  166  cd friends/
+  167  cp ~/Music/song1.mp3 ~/Music/song2.mp3 ~/example/Pictures/
+  168  cp ~/Music/song1.mp3 ~/Music/song2.mp3 ~/Pictures/
+  169  ls -l ../Pictures/
+  170  mv ../Pictures/song1.mp3  ../Pictures/song2.mp3 ../Music/
+  171  ls -l ../Pictures/
+  172  mv ../Pictures/song1.mp3  ../Pictures/song2.mp3 ../Music/
+  173  cp ~/Music/song1.mp3 ~/Music/song2.mp3 ~/Pictures/snap1.jpg ~/Pictures/snap2.jpg ~/Videos/film1.avi ~/Videos/film2.avi .
+  174  mv ../Pictures/song1.mp3  ../Pictures/song2.mp3 ../Music/
+  175  ls -l
+  176  cd ../family/
+  177  cp ~/Music/song3.mp3 ~/Music/song4.mp3 ~/Pictures/snap3.jpg ~/Pictures/snap4.jpg ~/Videos/film3.avi ~/Videos/film4.avi .
+  178  ls -l
+  179  cd ../work/
+  180  cp ~/Music/song5.mp3 ~/Music/song6.mp3 ~/Pictures/snap5.jpg ~/Pictures/snap6.jpg ~/Videos/film5.avi ~/Videos/film6.avi .
+  181  ls -l
+  182  cd
+  183  rmdir family friends
+  184  rm -r family/ friends/
+  185  ls -l
+  186  cd work/
+  187  rm song5.mp3 song6.mp3 snap5.jpg snap6.jpg film5.avi film6.avi
+  188  rmdir family
+  189  cd family
+  190  rmdir work
+  191  ls -l
+  192  cat ~/.bash_history
+  193  history
